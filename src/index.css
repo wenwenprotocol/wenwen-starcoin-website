@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./assets/fonts/Roboto-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DDIN';
+  src: local('DDIN'), url('./assets/fonts/D-DIN.ttf');
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background-color: #242424;
+  font-family: 'Roboto', 'Noto Sans', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 624px;
+  height: 624px;
+  left: -360px;
+  top: -363px;
+  background: rgba(68, 166, 155, 0.6);
+  filter: blur(700px);
+  z-index: -10;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

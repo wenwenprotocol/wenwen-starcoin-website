@@ -1,0 +1,32 @@
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {
+  confirm: 'Confirm',
+  cancel: 'Cancel',
+  pending: 'Pending',
+  max: 'Max',
+  nav: {
+    docs: 'Docs',
+    blog: 'Blog',
+  },
+  home: {
+    title: 'Decentralized Stablecoin That Liberates Your Liquidity',
+    subtitle: 'WENWEN Protocol is a stablecoin lending protocol on Starcoin that you can provide various crypto assets including interest-bearing tokens as collateral to borrow a USD pegged stablecoin – WEN.',
+    more: 'Learn More',
+    cta: 'Borrow Now',
+    launch_app: 'Launch App',
+    dual_token: 'Dual Token System',
+    stablecoins: 'Stablecoins',
+    stablecoins_desc: 'Currently, WENWEN protocol has issued three stablecoins, namely the USDN, JPYN, and EURN, which are pegged to the US dollar, Japanese Yen and Euro respectively. The protocol provides liquidity through the Uniswap Bonding Curve, and users can purchase stablecoins through trading pairs (such as WBTC-USDN) on Uniswap. ',
+    sharen_desc: 'SHAREN is the non-stable governance token in the WENWEN Protocol. Holding SHAREN is equivalent to holding WENWEN shares. SHAREN has two main functions: to participate in the community governance vote and to receive stablecoin dividend rewards.',
+    stability: 'Price Stability',
+    above_peg: 'When the price of a stablecoin is 1% higher than its peg',
+    below_peg: 'When the price of a stablecoin is 1% lower than its peg',
+    above_odd: 'In odd-numbered hours, the system vault will act as the central bank to sell its own stable coin through the trading pair on Uniswap.',
+    above_even: 'In even-numbered hours, the stablecoin supply is expanded to bring the price back down. The ones who staked SHAREN in the protocol will receive the stablecoin dividends as rewards.',
+    below_odd: 'In odd-numbered hours, the system vault will buy back the stablecoin on Uniswap.',
+    below_even: 'In even-numbered hours, the ones who staked the stablecoin in the protocol will receive SHAREN rewards as compensation. This may generate demand for the stablecoin which in turn will bring the price back up.',
+    mining: 'Liquidity Mining',
+    mining_desc: 'The protocol initiated a liquidity mining project with high APR to encourage users to participate in the development of WENWEN’s ecosystem and improve the liquidity of stablecoins',
+    farm: 'Start Farming Now',
+  },
+}
